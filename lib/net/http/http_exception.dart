@@ -44,15 +44,15 @@ class HttpException implements Exception {
           try {
             int errCode = error.response!.statusCode!;
             if (errCode.toString().startsWith("4")) {
-              return HttpException(-1, "系统异常，请稍后再试！");
+              return HttpException(-1, "系统异常，请联系管理员！");
             }
             if (errCode.toString().startsWith("5")) {
-              return HttpException(-1, "服务器异常，请稍后再试！");
+              return HttpException(-1, "服务器异常，请联系管理员！");
             } else {
               return HttpException(errCode, error.response!.statusMessage!);
             }
           } on Exception catch (_) {
-            return HttpException(-1, "未知错误");
+            return HttpException(-1, "未知错误，请联系管理员！");
           }
         }
       default:
