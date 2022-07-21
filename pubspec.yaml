@@ -33,46 +33,46 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.4
+  cupertino_icons: ^1.0.5
   # 更多的图标库
-  flutter_font_icons: ^2.2.4
+  flutter_font_icons: ^2.2.5
   # 屏幕适配
-  flutter_screenutil: ^5.3.1
+  flutter_screenutil: ^5.5.3+2
   # 网络请求
   dio: ^4.0.6
   # 缓存网络图片
-  cached_network_image: ^3.2.0
+  cached_network_image: ^3.2.1
   # lottie动画
-  lottie: ^1.2.2
+  lottie: ^1.3.0
   # toast弹窗
   fluttertoast: ^8.0.9
   # 分享
-  share_plus: ^4.0.4
+  share_plus: ^4.0.10
   # 轮播图
-  flutter_swiper_null_safety: ^1.0.2
+  card_swiper: ^2.0.4
   # 权限管理(需要配置)
-  permission_handler: ^9.2.0
+  permission_handler: ^10.0.0
   # 相册选择图片(需要配置)
-  wechat_assets_picker: ^6.3.1
+  wechat_assets_picker: ^7.3.2
   # 拍照(需要配置)
-  camera: ^0.9.4+19
-  wechat_camera_picker: ^2.6.5
+  camera: ^0.9.6
+  wechat_camera_picker: ^3.4.0
   # 图片裁剪(需要配置)
-  image_cropper: ^1.5.1
+  image_cropper: ^2.0.3
   # 图片压缩
   flutter_image_compress: ^1.1.0
   # 图片查看
-  photo_view: ^0.13.0
+  photo_view: ^0.14.0
   # 弹出框
-  awesome_dialog: ^2.2.0
+  awesome_dialog: ^2.2.1
   # 获取设备信息
-  device_info_plus: ^3.2.3
+  device_info_plus: ^4.0.0
   # 网络监测
-  connectivity_plus: ^2.2.2
+  connectivity_plus: ^2.3.5
   # 本地存储
-  shared_preferences: ^2.0.13
+  shared_preferences: ^2.0.15
   # 获取文件系统上常用的位置
-  path_provider: ^2.0.9
+  path_provider: ^2.0.11
   # 事件总线
   event_bus: ^2.0.0
 
