@@ -85,9 +85,9 @@ class _TabsState extends State<Tabs> {
               "首页",
             ),
             _buildBottomItem(
-              MaterialIcons.workspaces_outline,
-              MaterialIcons.workspaces_filled,
-              "结伴",
+              Ionicons.compass_outline,
+              Ionicons.compass,
+              "发现",
             ),
             _buildBottomItem(
               Ionicons.chatbubble_ellipses_outline,
@@ -102,7 +102,7 @@ class _TabsState extends State<Tabs> {
             _buildBottomItem(
               Ionicons.ios_person_outline,
               Ionicons.ios_person,
-              "我的",
+              "我",
             ),
           ],
         ),
